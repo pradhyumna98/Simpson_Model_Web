@@ -140,3 +140,12 @@ def about(request):
 
 def images(request):
     return render(request,  'generator/images.html', {'title':'Images'})
+
+def aboutproject(request):
+    return render(request, 'generator/aboutproject.html', {'title':'About Project'})
+
+def future(request):
+    return render(request, 'generator/future.html', {'title':'Future'})
+
+def aboutdevelopers(request):
+    return render(request, 'generator/aboutdevelopers.html', {'title':'About Developers'})
